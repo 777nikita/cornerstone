@@ -143,7 +143,8 @@
 
 .header-logo-text {
     display: block;
-    font-family: $fontFamily-hero;
+    font-family: 'DancingScript-Bold';
+    // font-family: $fontFamily-hero;
     font-size: $fontSize-logo-small;   // 1
     font-weight: stencilFontWeight("headings-font");
     letter-spacing: remCalc(2px);
