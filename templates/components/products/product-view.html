@@ -22,6 +22,8 @@
     {{/or}}"
     data-product-variant="single-product-option"{{/if}}>
 
+    {{> components/products/landing-simple}}
+
     {{#each product.reviews.messages}}
         {{#if error}}
             {{> components/common/alert/alert-error error}}
