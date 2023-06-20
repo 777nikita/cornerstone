@@ -154,6 +154,7 @@
 
 .navUser-item--cart {
     display: block;
+    background: url("../img/unnamed.jpg") 0 0 no-repeat;
 
     // removing cart link for small screens when quantity is 0
     &__hidden-s {
