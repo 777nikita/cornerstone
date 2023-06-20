@@ -107,6 +107,9 @@
                         <a href="{{url}}" data-event-type="product-click" class="button button--small card-figcaption-button" data-product-id="{{id}}">{{out_of_stock_message}}</a>
                     {{/if}}
                 {{/if}}
+                {{#if settings.show_wishlist}}
+                    {{> components/common/wishlist-dropdown}}
+                {{/if}}
             </div>
         </figcaption>
     </figure>

@@ -119,6 +119,7 @@
                 {{#if settings.show_product_rating}}
                     {{> components/products/ratings rating=product.rating}}
                     {{#if product.num_reviews '>' 0}}
+                        {{> components/products/review}}
                         <a href="{{product.url}}{{#if is_ajax}}#product-reviews{{/if}}" id="productReview_link">
                             {{lang 'products.reviews.link_to_review' total=product.num_reviews}}
                         </a>
