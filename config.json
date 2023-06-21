@@ -646,6 +646,7 @@
         ]
       },
       "settings": {
+        "banner-height": "400px",
         "body-font": "Google_Roboto_400",
         "headings-font": "Google_Volkhov_400",
         "color-textBase": "#74685c",

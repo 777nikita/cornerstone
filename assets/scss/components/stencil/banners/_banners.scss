@@ -28,6 +28,14 @@
 .banner {
     @include grid-row;
 
+    .shipping {
+        font-family: 'DancingScript-Bold';
+        color: white;
+        background-color: stencilColor("header-backgroundColor");
+        font-size: stencilNumber("fontSize-h6");
+        height: $banner-height;
+    }
+
     + .banner {
         margin-top: spacing("single");
     }
