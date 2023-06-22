@@ -25,7 +25,7 @@ export default function (context) {
 
         modal.open({ size: 'large' });
 
-        utils.api.product.getById(productId, { template: 'products/quick-view' }, (err, response) => {
+        utils.api.product.getById(productId, { template: 'products/quicker-view' }, (err, response) => {
             if (err) return;
 
             modal.updateContent(response);
