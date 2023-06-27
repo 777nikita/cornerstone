@@ -106,6 +106,14 @@ export default class ProductDetails extends ProductDetailsBase {
         $productOptionsElement.show();
 
         this.previewModal = modalFactory('#previewModal')[0];
+
+        // Register event hooks for AJAX response
+        utils.hooks.on('cart-item-add', () => {
+            const productName = $('.productView').find('.productView-title')[0].innerText;
+
+            // Show the alert message
+            alert(`The product ${productName} has been successfully added to your cart.`);
+        });
     }
 
     registerAddToCartValidation() {
