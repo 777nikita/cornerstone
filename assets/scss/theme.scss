@@ -77,3 +77,13 @@
 // -----------------------------------------------------------------------------
 
 @import "layouts/layouts"; // 1
+
+.optimizedCheckout-contentPrimary > div {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.layout-main, .layout-cart {
+    width: 100%;
+    float: none;
+}
