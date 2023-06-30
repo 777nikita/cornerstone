@@ -521,6 +521,82 @@
         "content": "i18n.Header"
       },
       {
+          "type": "checkbox",
+          "label": "Show banner text",
+          "force_reload": true,
+          "id": "header_banner"
+      },
+      {
+          "type": "color",
+          "label": "Banner text color",
+          "id": "header-backgroundColor"
+      },
+      {
+          "type": "font",
+          "label": "Banner text font",
+          "id": "optimizedCheckout-headingPrimary-font",
+          "options": [{
+                  "group": "i18n.OpenSans",
+                  "label": "i18n.OpenSans",
+                  "value": "Google_Open+Sans_400"
+              },
+              {
+                  "group": "i18n.OpenSans",
+                  "label": "i18n.OpenSansBold",
+                  "value": "Google_Open+Sans_700"
+              },
+              {
+                  "group": "i18n.Montserrat",
+                  "label": "i18n.MontserratLight",
+                  "value": "Google_Montserrat_400"
+              },
+              {
+                  "group": "i18n.Montserrat",
+                  "label": "i18n.MontserratBold",
+                  "value": "Google_Montserrat_700"
+              },
+              {
+                  "group": "i18n.Karla",
+                  "label": "i18n.Karla",
+                  "value": "Google_Karla_400"
+              },
+              {
+                  "group": "i18n.Roboto",
+                  "label": "i18n.Roboto",
+                  "value": "Google_Roboto_400"
+              },
+              {
+                  "group": "i18n.SourceSansPro",
+                  "label": "i18n.SourceSansPro",
+                  "value": "Google_Source+Sans+Pro_400"
+              },
+              {
+                  "group": "i18n.Volkhov",
+                  "label": "i18n.Volkhov",
+                  "value": "Google_Volkhov_400"
+              }
+          ]
+      },
+      {
+          "type": "select",
+          "label": "Banner position",
+          "id": "logo-position",
+          "force_reload": true,
+          "options": [{
+                  "value": "right",
+                  "label": "i18n.Right"
+              },
+              {
+                  "value": "center",
+                  "label": "i18n.Center"
+              },
+              {
+                  "value": "left",
+                  "label": "i18n.Left"
+              }
+          ]
+      },
+      {
         "type": "color",
         "label": "i18n.HeaderBackground",
         "id": "header-backgroundColor"
